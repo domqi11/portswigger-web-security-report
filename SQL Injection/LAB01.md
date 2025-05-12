@@ -7,7 +7,8 @@ This report documents a SQL injection vulnerability exploitation using UNION att
 2. Technical Discovery & Vulnerability Details
 Initial Discovery Process
 The vulnerability was identified in the category parameter of the product filter URL:
-<img width="1282" alt="image" src="https://github.com/user-attachments/assets/09eca8a9-98ad-48f3-86a2-7bdbcb9ae0ea" />
+![image](https://github.com/user-attachments/assets/7d515620-87e6-4605-910f-aebc752fda1c)
+
 
 The application exhibited SQL error behavior when appending a single quote to the parameter.
 
